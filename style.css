@@ -1,0 +1,89 @@
+* {
+    font-family: sans-serif, roboto;
+    /*border: 4px solid black;*/
+  }
+  
+  body {
+    background-color: #f9f9f9;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: sienna;
+    text-decoration: underline;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  h2, h3 {
+    text-align: center;
+  }
+  
+  img {
+    box-shadow: 5px 5px 10px #d88fc6;
+    border: 2px solid #d88fc6;
+    text-align: center;
+    height: auto;
+    width: 400px;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+  }
+  
+  ul li {
+    margin: 30px;
+    list-style-type: none;
+  }
+  
+  #sourceLink {
+    color: brown;
+    font-size: 16px;
+  }
+  
+  .ingredients li {
+    list-style-type: circle;
+  }
+  
+  ol li {
+    margin: 20px;
+    text-align: justify;
+  }
+  
+  .steps, .ingredient, .description {
+    background-color: pink;
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .description {
+    background-color: peachpuff;
+    text-align: center;
+  }
+  
+  #home {
+    background-color: antiquewhite;
+    width: 100%;
+    display: block;
+    padding: 10px;
+  }
+
+  li::marker {
+    font-weight: bolder;
+  }
